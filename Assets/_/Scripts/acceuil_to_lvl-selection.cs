@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class scene_change : MonoBehaviour
+public class acceuil_to_lvl-selection : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
