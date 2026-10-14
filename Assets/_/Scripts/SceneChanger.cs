@@ -8,8 +8,16 @@ public class SceneChanger : MonoBehaviour
     public void ChangeLaScene()
     {
         Debug.Log("BOUTON CLIQUÉ !");
-        Debug.Log("Scène demandée : " + selection_niveau1);
+        Debug.Log("Scène demandée : " + "selection_niveau1");
 
-        SceneManager.LoadScene(selection_niveau1);
+        SceneManager.LoadScene("selection_niveau1");
+    }
+
+    public void ChangeLaScene2()
+    {
+        Debug.Log("BOUTON CLIQUÉ !");
+        Debug.Log("Scène demandée : " + "choisir_le_bon_chemin");
+
+        SceneManager.LoadScene("choisir_le_bon_chemin");
     }
 }
